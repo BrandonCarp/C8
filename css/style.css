@@ -15,7 +15,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #fff;
+  color: rgb(129, 126, 126);
 }
 
 ul {
@@ -113,4 +113,192 @@ i {
   font-size: 16px;
   padding-bottom: 5rem;
   padding-left: 5rem;
+}
+
+/* Mid Nav */
+.mid-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(250, 246, 246, 0.973);
+  height: 5rem;
+}
+.mid-nav h2 {
+  font-size: 30px;
+}
+
+.mid-nav ul {
+  display: flex;
+  margin-right: 2.5rem;
+  align-items: center;
+}
+
+.mid-nav ul li a {
+  padding-right: 2rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.mid-nav ul li a:hover {
+  color: black;
+  /* border-bottom: 2px goldenrod solid; */
+}
+
+.mid-nav ul .btn {
+  border: 2px goldenrod solid;
+  padding: 1.3rem 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  background: #fff;
+}
+
+.mid-nav ul .btn:hover {
+  background: goldenrod;
+}
+
+/* Precision */
+.precision {
+  background: black;
+  color: #fff;
+}
+
+.precision .grid-container {
+  height: 8rem;
+  margin-left: 4rem;
+}
+.precision .grid-container .grid-1 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-left: 5rem;
+  padding-top: 2.7rem;
+}
+
+.precision .grid-container .grid-1 .box-1,
+.precision .grid-container .grid-1 .box-2,
+.precision .grid-container .grid-1 .box-3,
+.precision .grid-container .grid-1 .box-4 {
+  display: flex;
+  align-items: center;
+}
+
+.precision .grid-container i {
+  color: #fff;
+  font-size: 40px;
+  padding-right: 2rem;
+}
+
+.precision .grid-container .pre-head {
+  font-size: 11px;
+}
+
+.precision .grid-container .strong {
+  font-weight: strong;
+  font-size: 18px;
+}
+/* Article 1 */
+
+.precision .pres-art {
+  padding: 5rem;
+  margin-right: 8rem;
+  margin-left: 4rem;
+}
+
+.precision .pres-art h6 {
+  font-size: 2rem;
+  line-height: 1.7;
+}
+
+.precision .pres-art p {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+/* New Graphics */
+.new-graphics {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  height: 40rem;
+}
+
+.new-graphics .length {
+  margin-left: 7rem;
+}
+
+.new-graphics .stinger,
+.new-graphics .new-colors {
+  margin-top: 4.3rem;
+}
+
+.new-graphics .length h4 {
+  font-size: 30px;
+  padding-bottom: 2rem;
+}
+
+.new-graphics h5 {
+  font-size: 1.5rem;
+  padding: 20px 0;
+}
+
+.new-graphics p {
+  width: 500px;
+}
+
+.new-graphics img {
+  width: 500px;
+}
+
+/* Footer */
+#main-footer {
+  display: flex;
+  justify-content: space-between;
+  height: 7rem;
+}
+
+#main-footer .f-links ul {
+  display: flex;
+  margin-top: 3rem;
+  margin-left: 10rem;
+  font-size: 1.4rem;
+}
+
+#main-footer .f-links ul a {
+  padding-right: 1rem;
+}
+
+#main-footer .f-links ul a:hover {
+  color: black;
+}
+
+#main-footer .s-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10rem;
+}
+
+#main-footer .s-links p {
+  font-size: 1.7rem;
+  color: rgb(129, 126, 126);
+}
+
+#main-footer .s-links ul {
+  display: flex;
+}
+
+#main-footer .s-links ul li a {
+  padding-right: 1rem;
+  font-size: 2rem;
+}
+
+#main-footer .s-links ul li a i:first-child:hover {
+  color: black;
+}
+
+#main-footer .foot-img img {
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10rem;
 }
